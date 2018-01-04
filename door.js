@@ -45,6 +45,16 @@ var contract = new web3.eth.Contract([{
     "name": "employee",
     "type": "address"
   }],
+  "name": "removeEmployee",
+  "outputs": [],
+  "payable": false,
+  "type": "function"
+}, {
+  "constant": false,
+  "inputs": [{
+    "name": "employee",
+    "type": "address"
+  }],
   "name": "addEmployee",
   "outputs": [],
   "payable": false,
@@ -70,7 +80,7 @@ var contract = new web3.eth.Contract([{
   }],
   "name": "Opened",
   "type": "event"
-}], '0xad36b4106ee705f97975a2d8fa030d739abce4f9');
+}], '0xcde38456d24baba5df8b3139fc48717131676469');
 
 
 var latest = web3.eth.getBlock("latest");
