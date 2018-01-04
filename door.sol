@@ -19,6 +19,10 @@ contract Door {
         permission[employee] = true;
     }
 
+    function removeEmployee(address employee) public onlyOwner {
+        permission[employee] = false;
+    }
+
     modifier onlyEmployee {
         require(permission[msg.sender]);
         _;
