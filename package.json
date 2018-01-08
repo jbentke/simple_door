@@ -1,6 +1,7 @@
 {
     "name": "door-opener",
     "main": "door.js",
+    "start": "door.js",
     "dependencies": {
         "onoff": "~1.1.8",
         "web3": "~1.0.0-beta.26"
