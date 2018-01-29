@@ -80,7 +80,10 @@ var contract = new web3.eth.Contract([{
   }],
   "name": "Opened",
   "type": "event"
-}], '0xcde38456d24baba5df8b3139fc48717131676469');
+}], '0x23a1f700594f3d9be3fE4ad159F9Bd4006Fc9BdD');
+
+//kovan 0x23a1f700594f3d9be3fE4ad159F9Bd4006Fc9BdD
+//tobalaba 0xcde38456d24baba5df8b3139fc48717131676469
 
 
 var latest = web3.eth.getBlock("latest");
